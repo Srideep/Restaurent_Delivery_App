@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "create-file": "^1.0.1",
+    "gql": "^1.1.2",
+    "graphql": "^14.5.4",
+    "next": "^9.0.5",
+    "next-apollo": "^3.1.1",
+    "react": "^16.9.0",
+    "react-apollo": "^3.0.1",
+    "react-dom": "16.9.0",
+    "reactstrap": "^8.0.1",
+    "recompose": "^0.30.0",
+    "touch": "^3.1.0",
+    "yarn": "^1.17.3"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  }
+}
