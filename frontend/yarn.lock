@@ -1746,6 +1746,14 @@ create-ecdh@^4.0.0:
     bn.js "^4.1.0"
     elliptic "^6.0.0"
 
+create-file@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/create-file/-/create-file-1.0.1.tgz#8e449eebc3c61df2cd601b7fa0a421e2988fba3e"
+  integrity sha1-jkSe68PGHfLNYBt/oKQh4piPuj4=
+  dependencies:
+    is-existing-file "^1.0.0"
+    safe-write-file "^1.0.1"
+
 create-hash@^1.1.0, create-hash@^1.1.2:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/create-hash/-/create-hash-1.2.0.tgz#889078af11a63756bcfb59bd221996be3a9ef196"
@@ -2626,6 +2634,11 @@ is-descriptor@^1.0.0, is-descriptor@^1.0.2:
     is-accessor-descriptor "^1.0.0"
     is-data-descriptor "^1.0.0"
     kind-of "^6.0.2"
+
+is-existing-file@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/is-existing-file/-/is-existing-file-1.0.0.tgz#d5ac7d68d124565f9824c7d630bde153d0543ed4"
+  integrity sha1-1ax9aNEkVl+YJMfWML3hU9BUPtQ=
 
 is-extendable@^0.1.0, is-extendable@^0.1.1:
   version "0.1.1"
@@ -4098,6 +4111,13 @@ safe-regex@^1.1.0:
   dependencies:
     ret "~0.1.10"
 
+safe-write-file@^1.0.1:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/safe-write-file/-/safe-write-file-1.1.2.tgz#9056982c2ff259919337ca70e0f4deef915328da"
+  integrity sha1-kFaYLC/yWZGTN8pw4PTe75FTKNo=
+  dependencies:
+    mkdirp "^0.5.0"
+
 "safer-buffer@>= 2.1.2 < 3":
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
@@ -4637,9 +4657,9 @@ typedarray@^0.0.6:
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
 ua-parser-js@^0.7.18:
-  version "0.7.20"
-  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.20.tgz#7527178b82f6a62a0f243d1f94fd30e3e3c21098"
-  integrity sha512-8OaIKfzL5cpx8eCMAhhvTlft8GYF8b2eQr6JkCyVdrgjcytyOmPCXrqXFcUnhonRpLlh5yxEZVohm6mzaowUOw==
+  version "0.7.28"
+  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.28.tgz#8ba04e653f35ce210239c64661685bf9121dec31"
+  integrity sha512-6Gurc1n//gjp9eQNXjD9O3M/sMwVtN5S8Lv9bvOYBfKfDNiIIhqiyi01vMBO45u4zkDE420w/e0se7Vs+sIg+g==
 
 unfetch@4.1.0:
   version "4.1.0"
