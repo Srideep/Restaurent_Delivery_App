@@ -1746,6 +1746,14 @@ create-ecdh@^4.0.0:
     bn.js "^4.1.0"
     elliptic "^6.0.0"
 
+create-file@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/create-file/-/create-file-1.0.1.tgz#8e449eebc3c61df2cd601b7fa0a421e2988fba3e"
+  integrity sha512-7iTPgMEgLLFOq4Wkxnbinz9viMdEGYArNOxXtU90l6YoYGbd4vwf/r4oYztdUYt7ScDOwlA/y48si2HNL2hw9A==
+  dependencies:
+    is-existing-file "^1.0.0"
+    safe-write-file "^1.0.1"
+
 create-hash@^1.1.0, create-hash@^1.1.2:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/create-hash/-/create-hash-1.2.0.tgz#889078af11a63756bcfb59bd221996be3a9ef196"
@@ -1836,9 +1844,9 @@ debug@^4.1.0:
     ms "^2.1.1"
 
 decode-uri-component@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.0.tgz#eb3913333458775cb84cd1a1fae062106bb87545"
-  integrity sha1-6zkTMzRYd1y4TNGh+uBiEGu4dUU=
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.2.tgz#e69dbe25d37941171dd540e024c444cd5188e1e9"
+  integrity sha512-FqUYQ+8o158GyGTrMFJms9qh3CqTKvAqgqsTnkLI8sKu0028orqBhxNMFkFen0zGyg6epACD32pjVk58ngIErQ==
 
 deep-extend@^0.6.0:
   version "0.6.0"
@@ -2626,6 +2634,11 @@ is-descriptor@^1.0.0, is-descriptor@^1.0.2:
     is-accessor-descriptor "^1.0.0"
     is-data-descriptor "^1.0.0"
     kind-of "^6.0.2"
+
+is-existing-file@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/is-existing-file/-/is-existing-file-1.0.0.tgz#d5ac7d68d124565f9824c7d630bde153d0543ed4"
+  integrity sha512-tnBMjnMxklcDCz1arPnk9jLO3glSuuaBbRhxR2psyXpuKAkafChujKEKkViKrKC9Hs/R1hiHtkwTDGt9CK/l9A==
 
 is-extendable@^0.1.0, is-extendable@^0.1.1:
   version "0.1.1"
@@ -4097,6 +4110,13 @@ safe-regex@^1.1.0:
   integrity sha1-QKNmnzsHfR6UPURinhV91IAjvy4=
   dependencies:
     ret "~0.1.10"
+
+safe-write-file@^1.0.1:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/safe-write-file/-/safe-write-file-1.1.2.tgz#9056982c2ff259919337ca70e0f4deef915328da"
+  integrity sha512-K14rXQEVK+K/x/pYJGDskYpcQgOmVhClmri/dILstQrL8lkRvd2LAljVj7Qk4Ir7OZuTeq+1AUnVc9x97a0/4Q==
+  dependencies:
+    mkdirp "^0.5.0"
 
 "safer-buffer@>= 2.1.2 < 3":
   version "2.1.2"
